@@ -34,8 +34,12 @@ button {
 }
 
 
-
-
 /******************************
 Display Text
-*****************************
+*****************************/
+
+#chuck-fact {
+	color: firebrick;
+	font-size: 2em;
+	margin: 2em 1em;
+}
