@@ -1,6 +1,6 @@
 // the Chucck Norris API random quote generator
-// const chuckAPI = 'https://api.chucknorris.io/jokes/random';
-const chuckAPI = 'http://api.icndb.com/jokes/random';
+const chuckAPI = 'https://api.chucknorris.io/jokes/random';
+// const chuckAPI = 'http://api.icndb.com/jokes/random';
 
 
 // using axios to GET the data and post it to Twitter with Twit
