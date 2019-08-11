@@ -11,8 +11,9 @@ function getChuckQuote() {
   axios.get(chuckAPI)
   .then(function (response) {
     // grab the joke
-    const data = response.data.value.joke;
+    const data = response.data.value;
     // print the data on the page
+    console.log(data);
     chuckFact.innerHTML = data;
     return data;
   })
