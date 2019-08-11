@@ -17,13 +17,14 @@
 			<h1>Chuck Norris Jokes</h1>
 		</header>
 
-		<form>
-			<label>Number of Jokes</label>
-			<input type="number" name="number">
+<!-- 		<div class="input-fields">
 			<label>Change the Name</label>
 			<input type="text" name="text">
-			<button id="next-joke-button">Next Joke</button>
-		</form>
+		</div> -->
+
+		<button id="next-joke-button" onclick="getChuckQuote()">Next Joke</button>
+
+
 		<div id="main-content">
 
 			<div id="chuck-fact-container">
@@ -32,6 +33,9 @@
 
 		</div>
 
+		<!-- Axios CDN -->
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<!-- Custom JS -->
 		<script src="app.js"></script>
 	</body>
 </html>

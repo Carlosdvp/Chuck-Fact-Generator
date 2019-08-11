@@ -1,0 +1,41 @@
+/*****************************
+Global Styles
+******************************/
+
+body {
+	background-color: lightskyblue;
+	text-align: center;
+	color: ghostwhite;
+	font-size: 1.3em;
+}
+
+header {
+	margin: 3em 0;
+}
+
+
+/******************************
+Form and Buttons
+******************************/
+
+.input-fields {
+	margin: 1em;
+}
+
+button {
+	margin: 1.5em;
+	padding: 0.8em 1em;
+	background-color: darkcyan;
+	border-radius: 15px;
+	border: 1px solid ghostwhite;
+	color: ghostwhite;
+	font-size: 1.3em;
+	box-shadow: 2px 3px lightslategray;
+}
+
+
+
+
+/******************************
+Display Text
+*****************************
