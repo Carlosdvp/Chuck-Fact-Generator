@@ -33,6 +33,11 @@ button {
 	box-shadow: 2px 3px lightslategray;
 }
 
+#next-joke-button:hover {
+	background-color: lightcyan;
+	color: black;
+}
+
 
 /******************************
 Display Text
@@ -42,4 +47,14 @@ Display Text
 	color: firebrick;
 	font-size: 2em;
 	margin: 2em 1em;
+}
+
+
+/******************************
+Chuck main image
+*****************************/
+
+#chuck-main-img {
+	height: 20vh;
+	border-radius: 50%;
 }

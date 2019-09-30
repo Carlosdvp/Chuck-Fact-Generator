@@ -22,4 +22,4 @@ function getChuckQuote() {
   });
 }
 
-getChuckQuote();
+// getChuckQuote();
